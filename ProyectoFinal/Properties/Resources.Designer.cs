@@ -63,6 +63,16 @@ namespace ProyectoFinal.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _8100189 {
+            get {
+                object obj = ResourceManager.GetObject("8100189", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap aaaaa {
             get {
                 object obj = ResourceManager.GetObject("aaaaa", resourceCulture);

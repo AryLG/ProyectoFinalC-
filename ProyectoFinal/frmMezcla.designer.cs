@@ -38,6 +38,7 @@
             this.lblStadistica = new System.Windows.Forms.Label();
             this.lvwOrdenado = new System.Windows.Forms.ListView();
             this.label9 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnCrear
@@ -172,12 +173,26 @@
             this.label9.TabIndex = 42;
             this.label9.Text = "Merge Sort";
             // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.BackColor = System.Drawing.Color.Transparent;
+            this.label12.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.White;
+            this.label12.Location = new System.Drawing.Point(27, 91);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(63, 18);
+            this.label12.TabIndex = 43;
+            this.label12.Text = "Anterior";
+            this.label12.Click += new System.EventHandler(this.label12_Click);
+            // 
             // frmMezcla
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ProyectoFinal.Properties.Resources.lol;
             this.ClientSize = new System.Drawing.Size(573, 560);
+            this.Controls.Add(this.label12);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.lvwOrdenado);
             this.Controls.Add(this.lblStadistica);
@@ -210,6 +225,7 @@
         private System.Windows.Forms.Label lblStadistica;
         private System.Windows.Forms.ListView lvwOrdenado;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label12;
     }
 }
 

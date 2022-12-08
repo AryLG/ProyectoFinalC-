@@ -2,6 +2,7 @@
 using System.IO;
 using System.Diagnostics;
 using System.Windows.Forms;
+using ProyectoFinal;
 
 namespace appMetododeselecciónnuevo
 {
@@ -97,6 +98,13 @@ namespace appMetododeselecciónnuevo
         private void frmSeleccion_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void label12_Click(object sender, EventArgs e)
+        {
+            Form2 F = new Form2();
+            F.Show(); DoubleBuffered = true;
+            this.Hide();
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using AppAlg;
+﻿using _EDD_Tarea3;
+using AppAlg;
 using appMetododeselecciónnuevo;
 using Burbuja;
 using CountingSort;
@@ -64,14 +65,14 @@ namespace ProyectoFinal
 
         private void btnCola_Click(object sender, EventArgs e)
         {
-            frmCola F = new frmCola();
+            Form3 F = new Form3();
             F.Show();
             DoubleBuffered = true;
         }
 
         private void btnArbolB_Click(object sender, EventArgs e)
         {
-            frmArbolB F = new frmArbolB();
+            OAbb F = new OAbb();
             F.Show();
             DoubleBuffered = true;
         }
@@ -134,6 +135,13 @@ namespace ProyectoFinal
             frmRapido F = new frmRapido();
             F.Show();DoubleBuffered = true;
         }
-        
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            MenuPrincipal F = new MenuPrincipal();
+            F.Show();
+            DoubleBuffered = true;
+            this.Hide();
+        }
     }
 }

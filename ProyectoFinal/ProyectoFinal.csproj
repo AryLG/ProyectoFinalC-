@@ -47,7 +47,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ABB.cs" />
     <Compile Include="ArbolBinario.cs" />
+    <Compile Include="ColaCD.cs" />
+    <Compile Include="ColaLE.cs" />
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmBurbuja.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -73,6 +88,18 @@
     </Compile>
     <Compile Include="frmCola.Designer.cs">
       <DependentUpon>frmCola.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmColaCircularD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmColaCircularD.designer.cs">
+      <DependentUpon>frmColaCircularD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmColaListaE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmColaListaE.designer.cs">
+      <DependentUpon>frmColaListaE.cs</DependentUpon>
     </Compile>
     <Compile Include="frmCuentas.cs">
       <SubType>Form</SubType>
@@ -122,11 +149,23 @@
     <Compile Include="frmMezcla.designer.cs">
       <DependentUpon>frmMezcla.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmOAbb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOAbb.designer.cs">
+      <DependentUpon>frmOAbb.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmPila.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmPila.Designer.cs">
       <DependentUpon>frmPila.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRadix.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRadix.designer.cs">
+      <DependentUpon>frmRadix.cs</DependentUpon>
     </Compile>
     <Compile Include="frmRapido.cs">
       <SubType>Form</SubType>
@@ -140,19 +179,48 @@
     <Compile Include="frmSeleccion.designer.cs">
       <DependentUpon>frmSeleccion.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmShellS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmShellS.designer.cs">
+      <DependentUpon>frmShellS.cs</DependentUpon>
+    </Compile>
     <Compile Include="Grafo.cs" />
     <Compile Include="ListaCircular.cs" />
     <Compile Include="ListaDoble.cs" />
     <Compile Include="ListaDobleCircular.cs" />
     <Compile Include="ListaSimpleC.cs" />
+    <Compile Include="MenuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuPrincipal.Designer.cs">
+      <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </Compile>
     <Compile Include="Nodo.cs" />
+    <Compile Include="NodoABB.cs" />
     <Compile Include="NodoArbol.cs" />
+    <Compile Include="NodoCD.cs" />
     <Compile Include="NodoDoble.cs" />
+    <Compile Include="NodoLE.cs" />
+    <Compile Include="NodoOABBB.cs" />
+    <Compile Include="OAbb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OAbb.designer.cs">
+      <DependentUpon>OAbb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OOABB.cs" />
     <Compile Include="Operacion_Mezcla.cs" />
     <Compile Include="PilaConArreglo.cs" />
     <Compile Include="PilaConLista.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmBurbuja.resx">
       <DependentUpon>frmBurbuja.cs</DependentUpon>
     </EmbeddedResource>
@@ -164,6 +232,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmCola.resx">
       <DependentUpon>frmCola.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmColaCircularD.resx">
+      <DependentUpon>frmColaCircularD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmColaListaE.resx">
+      <DependentUpon>frmColaListaE.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmCuentas.resx">
       <DependentUpon>frmCuentas.cs</DependentUpon>
@@ -189,14 +263,29 @@
     <EmbeddedResource Include="frmMezcla.resx">
       <DependentUpon>frmMezcla.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmOAbb.resx">
+      <DependentUpon>frmOAbb.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmPila.resx">
       <DependentUpon>frmPila.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRadix.resx">
+      <DependentUpon>frmRadix.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmRapido.resx">
       <DependentUpon>frmRapido.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmSeleccion.resx">
       <DependentUpon>frmSeleccion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmShellS.resx">
+      <DependentUpon>frmShellS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuPrincipal.resx">
+      <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OAbb.resx">
+      <DependentUpon>OAbb.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -247,6 +336,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\lol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8100189.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

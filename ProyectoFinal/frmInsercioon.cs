@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProyectoFinal;
+using System;
 using System.Windows.Forms;
 
 namespace AppAlg
@@ -68,6 +69,13 @@ namespace AppAlg
         private void frmInsercioon_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void label12_Click(object sender, EventArgs e)
+        {
+            Form2 F = new Form2();
+            F.Show(); DoubleBuffered = true;
+            this.Hide();
         }
     }
 }

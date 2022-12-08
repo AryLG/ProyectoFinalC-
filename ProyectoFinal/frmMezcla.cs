@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Diagnostics;
+using ProyectoFinal;
 
 namespace Ordenamiento_Mezcla_Natural
 {
@@ -88,6 +89,13 @@ namespace Ordenamiento_Mezcla_Natural
         private void frmMezcla_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void label12_Click(object sender, EventArgs e)
+        {
+            Form2 F = new Form2();
+            F.Show(); DoubleBuffered = true;
+            this.Hide();
         }
     }
 }

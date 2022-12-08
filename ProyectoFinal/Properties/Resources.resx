@@ -121,11 +121,11 @@
   <data name="fondos 23" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fondos 23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Image9980-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Image9980-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Captura de pantalla (53)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Captura de pantalla (53).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="kj" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kj.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -133,16 +133,19 @@
   <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="lol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Nodos para la presentacion" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Nodos para la presentacion.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="aaaaa" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\aaaaa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="images-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Image9980-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Image9980-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="lol" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="8100189" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8100189.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

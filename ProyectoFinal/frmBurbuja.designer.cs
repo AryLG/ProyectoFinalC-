@@ -50,6 +50,7 @@ namespace Burbuja
             this.lblPasadas = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label9 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -302,6 +303,19 @@ namespace Burbuja
             this.label9.TabIndex = 24;
             this.label9.Text = "Bubble Sort";
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(12, 60);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(63, 18);
+            this.label6.TabIndex = 34;
+            this.label6.Text = "Anterior";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
+            // 
             // frmBurbuja
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -309,6 +323,7 @@ namespace Burbuja
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = global::ProyectoFinal.Properties.Resources.lol;
             this.ClientSize = new System.Drawing.Size(573, 560);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.tbComparaciones);
@@ -360,6 +375,7 @@ namespace Burbuja
         private System.Windows.Forms.Label lblPasadas;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label6;
 
         public EventHandler GenerarDatos_Click { get; private set; }
     }

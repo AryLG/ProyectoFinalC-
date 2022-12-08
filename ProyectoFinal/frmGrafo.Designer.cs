@@ -54,6 +54,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.label12 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pbGrafo)).BeginInit();
             this.gbVertices.SuspendLayout();
             this.gbArcos.SuspendLayout();
@@ -380,6 +381,19 @@
             this.pictureBox2.TabIndex = 93;
             this.pictureBox2.TabStop = false;
             // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.BackColor = System.Drawing.Color.Transparent;
+            this.label12.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.White;
+            this.label12.Location = new System.Drawing.Point(26, 501);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(63, 18);
+            this.label12.TabIndex = 94;
+            this.label12.Text = "Anterior";
+            this.label12.Click += new System.EventHandler(this.label12_Click);
+            // 
             // frmGrafos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -387,6 +401,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = global::ProyectoFinal.Properties.Resources.lol;
             this.ClientSize = new System.Drawing.Size(864, 523);
+            this.Controls.Add(this.label12);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.statusStrip1);
@@ -441,6 +456,7 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label label12;
     }
 }
 

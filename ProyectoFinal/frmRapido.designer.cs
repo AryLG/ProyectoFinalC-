@@ -37,6 +37,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label12 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -154,12 +155,26 @@
             this.pictureBox1.TabIndex = 23;
             this.pictureBox1.TabStop = false;
             // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.BackColor = System.Drawing.Color.Transparent;
+            this.label12.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.White;
+            this.label12.Location = new System.Drawing.Point(9, 81);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(63, 18);
+            this.label12.TabIndex = 36;
+            this.label12.Text = "Anterior";
+            this.label12.Click += new System.EventHandler(this.label12_Click);
+            // 
             // frmRapido
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ProyectoFinal.Properties.Resources.lol;
             this.ClientSize = new System.Drawing.Size(573, 560);
+            this.Controls.Add(this.label12);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.button1);
@@ -190,6 +205,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label12;
     }
 }
 

@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Threading;
 using System.IO;
+using ProyectoFinal;
 
 namespace Grafos
 {
@@ -121,7 +122,11 @@ namespace Grafos
           }
           private void DibujarGrafo(Grafo grafo, bool BuscarVertice = false, string VerticeBuscado = "", Queue<string> Rec = null)
           {
-               g.Clear(Color.White);
+            if (g == null)
+            {
+                return;
+            }
+            g.Clear(Color.White);
                foreach (KeyValuePair<string, Point> Vertice in grafo.Vertices)
                {
                     R = new Rectangle(Vertice.Value, Tamaño);
@@ -302,6 +307,13 @@ namespace Grafos
         private void nuPeso_ValueChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void label12_Click(object sender, EventArgs e)
+        {
+            Form1 F = new Form1();
+            F.Show(); DoubleBuffered = true;
+            this.Hide();
         }
 
         private void cbTipoGrafo_SelectedIndexChanged(object sender, EventArgs e)

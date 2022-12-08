@@ -102,5 +102,12 @@ namespace ProyectoFinal
                 MessageBox.Show("Error");
             }
         }
+
+        private void label12_Click(object sender, EventArgs e)
+        {
+           Form1 F = new Form1();
+            F.Show(); DoubleBuffered = true;
+            this.Hide();
+        }
     }
 }

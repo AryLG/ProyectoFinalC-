@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProyectoFinal;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -158,6 +159,13 @@ namespace OrdenamientoRapido
         private void frmRapido_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void label12_Click(object sender, EventArgs e)
+        {
+            Form2 F = new Form2();
+            F.Show(); DoubleBuffered = true;
+            this.Hide();
         }
 
         private void Imprimir()

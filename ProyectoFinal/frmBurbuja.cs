@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Diagnostics;
+using ProyectoFinal;
 
 namespace Burbuja
 {
@@ -120,6 +121,18 @@ namespace Burbuja
         private void Burbuja_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btncerrar_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+            Form2 F = new Form2();
+            F.Show(); DoubleBuffered = true;
+            this.Hide();
         }
 
         private void label1_Click(object sender, EventArgs e)
